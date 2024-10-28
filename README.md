@@ -16,3 +16,7 @@ https://github.com/user-attachments/assets/6687525b-7e7e-4f12-a83f-83cae6b6bb3a
 ## GPT Process
 - Label Processing: Leveraged the OpenAI Chat API to analyze the labels obtained from predictions made on video inputs. A carefully crafted prompt was provided to the language model, specifying criteria for emergency levels and object descriptions.
 - Real-time Alerts: Generated scripts from the language model were utilized to annotate the video with emergency levels and descriptive alerts, effectively communicating potential hazards to drivers in real-time. 
+
+## How to use
+- Configure OpenAI API Key: Open the gpt_processing.py file and update the OPENAI_API_KEY variable with your OpenAI API key.
+- Set Video Path: In the same gpt_processing.py file, change the path of the video file to point to your desired input video.
